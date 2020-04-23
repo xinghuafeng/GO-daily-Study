@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24f59147-caf1-42d8-9d96-2eeb0f2804e8" name="Default Changelist" comment="" />
+    <list default="true" id="24f59147-caf1-42d8-9d96-2eeb0f2804e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch8/map_ext_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch8/map_ext_test.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +20,17 @@
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\GO\github\go-learning\GO-daily-Study\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1aqt6kWU8ssACcznznnBoaeFgJB" />
   <component name="ProjectViewState">
@@ -37,7 +48,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.TestMapForSet in map_ext_test.go">
+  <component name="RunManager" selected="Go Test.TestMapWithFunValue in map_ext_test.go">
     <configuration name="TestExitMapValue in Map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
       <working_directory value="$PROJECT_DIR$/ch7" />
@@ -68,14 +79,14 @@
       <pattern value="^TestMapForSet$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSliceShareMemory in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMapWithFunValue in map_ext_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
-      <working_directory value="$PROJECT_DIR$/ch6" />
+      <working_directory value="$PROJECT_DIR$/ch8" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/ch6/slice_test.go" />
-      <pattern value="^TestSliceShareMemory$" />
+      <filePath value="$PROJECT_DIR$/ch8/map_ext_test.go" />
+      <pattern value="^TestMapWithFunValue$" />
       <method v="2" />
     </configuration>
     <configuration name="TestTrallMap in Map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -90,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMapWithFunValue in map_ext_test.go" />
         <item itemvalue="Go Test.TestMapForSet in map_ext_test.go" />
         <item itemvalue="Go Test.TestTrallMap in Map_test.go" />
         <item itemvalue="Go Test.TestExitMapValue in Map_test.go" />
         <item itemvalue="Go Test.TestMap in Map_test.go" />
-        <item itemvalue="Go Test.TestSliceShareMemory in slice_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -122,25 +133,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587479673556" />
-    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1587570634299">
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1587648613093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587570634299" />
-    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1587570634299">
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587648613093" />
+    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1587648613092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587570634299" />
-    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1587570634299">
+    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587648613092" />
+    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1587648613092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587570634299" />
-    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1587570634299">
+    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587648613092" />
+    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1587648613092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587570634299" />
+    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587648613092" />
     <state x="459" y="76" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1587474915185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="76" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587474915185" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587648620999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1587648620999" />
   </component>
 </project>
