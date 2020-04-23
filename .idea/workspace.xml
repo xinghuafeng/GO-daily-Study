@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24f59147-caf1-42d8-9d96-2eeb0f2804e8" name="Default Changelist" comment="defer函數用法&#10;panic後面的不會在執行，但是defer可延遲執行">
+    <list default="true" id="24f59147-caf1-42d8-9d96-2eeb0f2804e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch10/customer_type_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/interface_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch9/Hs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch9/Hs_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1aqt6kWU8ssACcznznnBoaeFgJB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,7 +58,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.TestDefer in Hs_test.go">
+  <component name="RunManager" selected="Go Test.TestGoProgrammer in interface_test.go">
     <configuration name="TestBB in Hs_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
       <working_directory value="$PROJECT_DIR$/ch9" />
@@ -85,14 +89,14 @@
       <pattern value="^TestDefer$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHs in Hs_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGoProgrammer in interface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
-      <working_directory value="$PROJECT_DIR$/ch9" />
+      <working_directory value="$PROJECT_DIR$/ch10" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/ch9/Hs_test.go" />
-      <pattern value="^TestHs$" />
+      <filePath value="$PROJECT_DIR$/ch10/interface_test.go" />
+      <pattern value="^TestGoProgrammer$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMethod in Hs_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -107,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGoProgrammer in interface_test.go" />
         <item itemvalue="Go Test.TestDefer in Hs_test.go" />
         <item itemvalue="Go Test.TestMethod in Hs_test.go" />
         <item itemvalue="Go Test.TestBB in Hs_test.go" />
         <item itemvalue="Go Test.TestByHS in Hs_test.go" />
-        <item itemvalue="Go Test.TestHs in Hs_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -142,37 +146,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="436" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587477266749" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1587652828973">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1587652887079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587652828973" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587652887079" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1587479673556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587479673556" />
-    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1587652829146">
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1587654133494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587652829146" />
-    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1587652829146">
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587654133494" />
+    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1587654133494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587652829146" />
-    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1587652829145">
+    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587654133494" />
+    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1587654133494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587652829145" />
-    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1587652829146">
+    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587654133494" />
+    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1587654133494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587652829146" />
+    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587654133494" />
     <state x="459" y="76" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1587474915185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="76" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587474915185" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587652876927">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587655266088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1587652876927" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1587655266088" />
   </component>
 </project>
