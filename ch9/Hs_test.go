@@ -14,6 +14,7 @@ func TestHs(t *testing.T) {
 	 * &a 指向 a 指针，a 变量的地址
 	 * &b 指向 b 指针，b 变量的地址
 	 */
+
 	Swap1(&a, &b)
 	t.Log(a, b)
 }
@@ -27,15 +28,6 @@ func Add(x, y int) int {
 //go 默认按照值传递 值传递不会改变变量值
 //引用传递是指在调用函数时将实际参数的地址传递到函数中，那么在函数中对参数所进行的修改，将影响到实际参数。
 /* 定义相互交换值的函数 */
-func swap(x, y int) int {
-	var temp int
-
-	temp = x /* 保存 x 的值 */
-	x = y    /* 将 y 值赋给 x */
-	y = temp /* 将 temp 值赋给 y*/
-
-	return temp
-}
 func Swap1(x *int, y *int) {
 	var temp int
 	temp = *x /* 保存 x 地址上的值 */
@@ -101,4 +93,12 @@ func (c Circle) getArea() float64 {
 
 	//c.radius 即为 Circle 类型对象中的属性
 	return 3.14 * c.radius * c.radius
+}
+func TestDefer(t *testing.T) {
+	defer func() {
+		t.Log("clean")
+	}()
+
+	t.Log("start")
+	panic("error")
 }
