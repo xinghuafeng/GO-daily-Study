@@ -11,6 +11,7 @@ func  doSomething( p interface{})  {
 		fmt.Println("Int",i)
 		return
 	}
+	//两段表达式
 	if s,ok:=p.(string);ok{
 		fmt.Println("string",s)
 		return
