@@ -18,7 +18,7 @@ func Fib(n int  )([]int,error) {
 }
 func TestDemo( t *testing.T)  {
 
-	if v,error:= Fib(50);error!=nil{
+	if v,error:= Fib(10);error!=nil{
 		t.Error(error)
 	} else {
 		t.Log(v)
