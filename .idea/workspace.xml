@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="GoTestRunConfiguration" name="TestDemo in panic_test.go" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="24f59147-caf1-42d8-9d96-2eeb0f2804e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch15/panic_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/error1_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch14/error1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/lock_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/shareMem_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/CSP_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/manyUserAndTimeOut_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch19/chanelClose_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch19/taskChance_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,35 +81,45 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.TestDemo in panic_test.go">
-    <configuration name="TestDEMO1 in panic_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestChanel in chanelClose_test.go">
+    <configuration name="TestAsyncService in manyUserAndTimeOut_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
-      <working_directory value="$PROJECT_DIR$/ch15" />
+      <working_directory value="$PROJECT_DIR$/ch18" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/ch15/panic_test.go" />
-      <pattern value="^TestDEMO1$" />
+      <filePath value="$PROJECT_DIR$/ch18/manyUserAndTimeOut_test.go" />
+      <pattern value="^TestAsyncService$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDemo in POLY_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChanel in chanelClose_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
-      <working_directory value="$PROJECT_DIR$/ch12" />
+      <working_directory value="$PROJECT_DIR$/ch19" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/ch12/POLY_test.go" />
-      <pattern value="^TestDemo$" />
+      <filePath value="$PROJECT_DIR$/ch19/chanelClose_test.go" />
+      <pattern value="^TestChanel$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDemo in error1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCountThreadSafe in lock_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
-      <working_directory value="$PROJECT_DIR$/ch14" />
+      <working_directory value="$PROJECT_DIR$/ch17" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/ch14/error1_test.go" />
-      <pattern value="^TestDemo$" />
+      <filePath value="$PROJECT_DIR$/ch17/lock_test.go" />
+      <pattern value="^TestCountThreadSafe$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCountThreadSafeByWaitGroup in shareMem_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-learning" />
+      <working_directory value="$PROJECT_DIR$/ch17" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/ch17/shareMem_test.go" />
+      <pattern value="^TestCountThreadSafeByWaitGroup$" />
       <method v="2" />
     </configuration>
     <configuration name="TestDemo in panic_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -112,23 +132,13 @@
       <pattern value="^TestDemo$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestEmptyeAssertion in emptyInterface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-learning" />
-      <working_directory value="$PROJECT_DIR$/ch13" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/ch13/emptyInterface_test.go" />
-      <pattern value="^TestEmptyeAssertion$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestChanel in chanelClose_test.go" />
+        <item itemvalue="Go Test.TestAsyncService in manyUserAndTimeOut_test.go" />
+        <item itemvalue="Go Test.TestCountThreadSafeByWaitGroup in shareMem_test.go" />
+        <item itemvalue="Go Test.TestCountThreadSafe in lock_test.go" />
         <item itemvalue="Go Test.TestDemo in panic_test.go" />
-        <item itemvalue="Go Test.TestDEMO1 in panic_test.go" />
-        <item itemvalue="Go Test.TestDemo in POLY_test.go (1)" />
-        <item itemvalue="Go Test.TestDemo in error1_test.go" />
-        <item itemvalue="Go Test.TestEmptyeAssertion in emptyInterface_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -156,10 +166,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587476164557" />
-    <state x="436" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587655649523">
+    <state x="436" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588864106947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="436" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587655649523" />
+    <state x="436" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588864106947" />
     <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1587656916620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -168,30 +178,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587479673556" />
-    <state width="1323" height="159" key="GridCell.Tab.0.bottom" timestamp="1588204162655">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1588865870147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588204162655" />
-    <state width="1323" height="159" key="GridCell.Tab.0.center" timestamp="1588204162655">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588865870147" />
+    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1588865870146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588204162655" />
-    <state width="1323" height="159" key="GridCell.Tab.0.left" timestamp="1588204162655">
+    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588865870146" />
+    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1588865870146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588204162655" />
-    <state width="1323" height="159" key="GridCell.Tab.0.right" timestamp="1588204162655">
+    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588865870146" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1588865870146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588204162655" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588865870146" />
     <state x="459" y="76" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1587474915185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="76" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587474915185" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588204334809">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588253953372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1588204334809" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1588253953372" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
