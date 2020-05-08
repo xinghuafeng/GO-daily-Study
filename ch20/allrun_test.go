@@ -30,9 +30,29 @@ func FirstResponse() string {
 	}
 	return <-ch
 }
+
+//并发情景：所有任务完成才退出
+func AllTaskResponse() string {
+
+	numOfRunner := 10
+	ch := make(chan string, numOfRunner)
+	for i := 0; i < numOfRunner; i++ {
+		go func(i int) {
+			ret := runTash(i)
+			ch <- ret
+		}(i)
+	}
+	finRet := ""
+	for i := 0; i < numOfRunner; i++ {
+		finRet += <-ch + "\n"
+	}
+
+	return finRet
+}
 func TestFirstRespone(t *testing.T) {
 	t.Log("Before:", runtime.NumGoroutine())
 	t.Log(FirstResponse())
+	t.Log(AllTaskResponse())
 	time.Sleep(time.Second * 1)
 	t.Log("After:", runtime.NumGoroutine())
 }
