@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24f59147-caf1-42d8-9d96-2eeb0f2804e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch17/lock_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/shareMem_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch18/CSP_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch18/manyUserAndTimeOut_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch19/chanelClose_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch19/taskChance_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch20/allrun_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,12 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.TestChanel in chanelClose_test.go">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GO\github\go-learning\GO-daily-Study" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestFirstRespone in allrun_test.go">
     <configuration name="TestAsyncService in manyUserAndTimeOut_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
       <working_directory value="$PROJECT_DIR$/ch18" />
@@ -122,23 +121,23 @@
       <pattern value="^TestCountThreadSafeByWaitGroup$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDemo in panic_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFirstRespone in allrun_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-learning" />
-      <working_directory value="$PROJECT_DIR$/ch15" />
+      <working_directory value="$PROJECT_DIR$/ch20" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/ch15/panic_test.go" />
-      <pattern value="^TestDemo$" />
+      <filePath value="$PROJECT_DIR$/ch20/allrun_test.go" />
+      <pattern value="^TestFirstRespone$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestFirstRespone in allrun_test.go" />
         <item itemvalue="Go Test.TestChanel in chanelClose_test.go" />
         <item itemvalue="Go Test.TestAsyncService in manyUserAndTimeOut_test.go" />
         <item itemvalue="Go Test.TestCountThreadSafeByWaitGroup in shareMem_test.go" />
         <item itemvalue="Go Test.TestCountThreadSafe in lock_test.go" />
-        <item itemvalue="Go Test.TestDemo in panic_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +150,8 @@
     <MESSAGE value="函數、閉包、方法" />
     <MESSAGE value="defer函數用法&#10;panic後面的不會在執行，但是defer可延遲執行" />
     <MESSAGE value="go里没有继承，但是可以扩展与复用，提供了一种匿名嵌套类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="go里没有继承，但是可以扩展与复用，提供了一种匿名嵌套类型" />
+    <MESSAGE value="go中锁，共享机制，chanel关闭与广播机制；任务取消机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="go中锁，共享机制，chanel关闭与广播机制；任务取消机制" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -170,30 +170,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="436" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588864106947" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1587656916620">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1588866589106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587656916620" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588866589106" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1587479673556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587479673556" />
-    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1588865870147">
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1588944410455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588865870147" />
-    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1588865870146">
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588944410455" />
+    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1588944410455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588865870146" />
-    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1588865870146">
+    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588944410455" />
+    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1588944410455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588865870146" />
-    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1588865870146">
+    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588944410455" />
+    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1588944410455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588865870146" />
+    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588944410455" />
     <state x="459" y="76" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1587474915185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
